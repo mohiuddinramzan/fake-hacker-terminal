@@ -1,29 +1,58 @@
 # Fake Hacker Terminal Simulator
 
-A cinematic, fully fictional hacker terminal built with plain HTML, CSS and vanilla JavaScript. 100% static, no dependencies, no build step.
+A cinematic hacker terminal that runs in your browser. Everything on screen is fictional and made for fun.
 
-## Features
-- Black screen, glowing monospace text, scanlines and CRT effect
-- Boot animation, blinking cursor, command history
-- Themes: green, amber, cyan
-- Optional key/beep sounds (Web Audio API, off by default)
-- Matrix rain (canvas), fullscreen button
-- Responsive, with touch buttons for phones and tablets
+**Live demo:** https://mohiuddinramzan.github.io/fake-hacker-terminal/
 
-## Commands
-`help` `clear` `about` `status` `system` `scan` `hack` `matrix` `theme` `sound` `date` `time`
+## What you get
+- Black screen, glowing text, scanlines and a CRT look
+- Boot animation and a blinking cursor
+- Fake `scan` and `hack` animations with a progress bar
+- Full-screen Matrix rain
+- Three color themes: green, amber, cyan
+- Optional key sounds (off by default)
+- Works on phones, tablets and desktops
 
-Examples: `theme cyan`, `sound on`
+## How to use
+Type a command and press Enter.
 
-Keys: Enter, Arrow Up/Down, Esc (cancel animation / exit Matrix), Ctrl+L (clear).
+| Command | What it does |
+|---|---|
+| `help` | Lists all commands |
+| `clear` | Clears the screen |
+| `about` | About this simulator |
+| `status` | Fake system status |
+| `system` | Fake system information |
+| `scan` | Fake virtual network scan |
+| `hack` | Fake hacking animation |
+| `matrix` | Matrix rain (Esc to exit) |
+| `theme cyan` | Switch theme: `green`, `amber` or `cyan` |
+| `sound on` | Turn sound `on` or `off` |
+| `date` | Shows today's date |
+| `time` | Shows the current time |
 
-## GitHub Pages setup
-Repository → Settings → Pages → Deploy from branch → main → / (root) → Save
+## Controls
+| Key | Action |
+|---|---|
+| Enter | Run command |
+| Arrow Up / Down | Browse command history |
+| Esc | Cancel animation or leave Matrix |
+| Ctrl + L | Clear screen |
 
-## Local usage
-Open `index.html` in any modern browser.
+On phones, use the buttons at the bottom: **↑ ↓ ENTER ESC**. Tap the Matrix screen to exit.
+
+## Run it yourself
+No install and no build step.
+
+1. Download or clone this repo.
+2. Open `index.html` in any modern browser.
+
+To host it on GitHub Pages: Settings → Pages → Deploy from branch → `main` → `/ (root)` → Save.
+
+## Built with
+HTML, CSS and vanilla JavaScript only. No libraries, no backend, no external files.
 
 ## Disclaimer
 This website is a fictional terminal simulator created for entertainment.
 
-It does not perform real hacking, network scanning, exploitation, or unauthorized access.
+It does not perform real hacking, network scanning, exploitation, or unauthorized access. No data is collected or sent anywhere.
